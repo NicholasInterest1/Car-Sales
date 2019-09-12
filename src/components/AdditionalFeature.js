@@ -7,7 +7,7 @@ const AdditionalFeature = props => {
       <button
         className='button'
         onClick={() => props.AddFeature(props.feature.id)}>
-        Add
+        Add Feature
       </button>
       {props.feature.name} (+{props.feature.price})
     </li>

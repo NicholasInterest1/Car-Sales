@@ -12,12 +12,12 @@ const AddedFeatures = props => {
             <AddedFeature
               key={item.id}
               feature={item}
-              handleRemoveFeature={props.handleRemoveFeature}
+              removeFeature={props.removeFeature}
             />
           ))}
         </ol>
       ) : (
-        <p>You can purchase items from the store.</p>
+        <p>Add-on however many features you feel inclined to pay for!</p>
       )}
     </div>
   );

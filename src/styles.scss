@@ -13,12 +13,14 @@ body {
   grid-gap: 2em;
   grid-template-columns: repeat(2, minmax(350px, 1fr));
   grid-template-rows: auto;
-  max-height: 30rem;
 }
 .box {
   display: flex;
+  background: #ebebeb;
   flex-direction: column;
-  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+  border: 3px solid #962626;
   h1 {
     font-size: 20px;
     margin: 0 0 1rem 0;
@@ -36,15 +38,30 @@ body {
   }
 }
 .button {
-  background: hotpink;
-  border: 1px solid transparent;
+  background: #962626;
+  border: 2px solid transparent;
   color: white;
   margin-right: 1em;
   padding: .25em .75em;
   transition: all .25s ease-in;
   &:hover {
-    background: white;
-    border: 1px solid hotpink;
-    color: #333;
+    background: #21a621;
+    border: 2px solid transparent;
+    color: white;
+  }
+}
+
+.button2 {
+  background: #21a621;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: white;
+  margin-right: 1em;
+  padding: .25em .75em;
+  transition: all .25s ease-in;
+  &:hover {
+    background: #962626;
+    border: 2px solid transparent;
+    color: white;
   }
 }

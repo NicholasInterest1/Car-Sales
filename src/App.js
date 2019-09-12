@@ -9,13 +9,13 @@ import Total from './components/Total';
 import { removeFeature } from './actions';
 
 const App = props => {
-  const handleRemoveFeature = id => {
+  const removeFeature = id => {
     props.removeFeature(id);
   };
 
-  const buyItem = item => {
-    // dispatch an action here to add an item
-  };
+  // const buyItem = item => {
+  //   // dispatch an action here to add an item
+  // };
 
   return (
     <div className='boxes'>
@@ -23,7 +23,7 @@ const App = props => {
         <Header car={props.car} />
         <AddedFeatures
           car={props.car}
-          handleRemoveFeature={handleRemoveFeature}
+          removeFeature={removeFeature}
         />
       </div>
       <div className='box'>

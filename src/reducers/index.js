@@ -20,12 +20,9 @@ const initialState = {
     { id: 8, name: 'Voice-Activated Touchscreen Navigation System with SiriusXM Traffic & Travel Link', price: 795 },
     { id: 9, name: 'Aeroskin Hood Protector by Lund', price: 79 },
     { id: 10, name: 'Hood Louvers by Air Design', price: 199 },
-    { id: 11, name: 'Parking Lamp Curtains by Air Design', price: 169 },
-    { id: 12, name: 'Quarter Window Louvers by Air Design', price: 199 },
-    { id: 13, name: 'Bullfrog Hop by Kicker', price: 199 },
-    { id: 14, name: 'Bullfrog Jump by Kicker', price: 399 },
-    { id: 15, name: 'Cargo Area Protector', price: 110 },
-    { id: 16, name: 'Windshield Sunscreen by Covercraft', price: 79 },
+    { id: 11, name: 'Quarter Window Louvers by Air Design', price: 199 },
+    { id: 12, name: 'Cargo Area Protector', price: 110 },
+    { id: 13, name: 'Windshield Sunscreen by Covercraft', price: 79 },
   ],
 };
 
